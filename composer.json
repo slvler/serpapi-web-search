@@ -1,0 +1,44 @@
+{
+    "name": "slvler/serpapi-search-api",
+    "description": "Scrape Google and other search engines from our fast, easy, and complete API. wrapper for Laravel",
+    "keywords": [
+        "serpapi",
+        "search",
+        "laravel",
+        "php"
+    ],
+    "homepage": "https://github.com/slvler/serpapi-web-searchi",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "slvler",
+            "email": "slvler@proton.me"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.18",
+        "phpunit/phpunit": "^10.5",
+        "friendsofphp/php-cs-fixer": "^3.64"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slvler\\Serpapi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Slvler\\Serpapi\\SerpapiServiceProvider"
+            ],
+            "aliases": {
+                "Serpapi": "Slvler\\Serpapi\\Facades\\Serpapi"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
