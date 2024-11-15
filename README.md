@@ -1,5 +1,5 @@
 # Serpapi Web Search API
-[![tests](https://github.com/slvler/serpapi-search-api/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/serpapi-search-api)
+[![tests](https://github.com/slvler/serpapi-web-search/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/serpapi-search-api)
 [![Latest Stable Version](https://poser.pugx.org/slvler/serpapi-search-api/v)](https://packagist.org/packages/slvler/serpapi-search-api)
 [![Latest Unstable Version](https://poser.pugx.org/slvler/serpapi-search-api/v/unstable)](https://packagist.org/packages/slvler/serpapi-search-api)
 [![License](https://poser.pugx.org/slvler/serpapi-search-api/license)](https://packagist.org/packages/slvler/serpapi-search-api) 
