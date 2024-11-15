@@ -6,8 +6,7 @@
 [![Total Downloads](https://poser.pugx.org/slvler/serpapi-search-api/downloads)](https://packagist.org/packages/slvler/serpapi-search-api)
 
 ### Introduction
-Brave Web Search API is a REST API to query Brave Search and get back search results from the web. The following sections describe how to curate requests, including parameters and headers, to Brave Web Search API and get a JSON response back.
-This package provides a convenient wrapper to the [Brave Web Search API](https://api.search.brave.com/app/documentation/web-search/get-started)  for Laravel applications.
+API endpoint allows you to scrape the results from Google search engine via our SerpApi service. Head to the playground for a live and interactive demo. You can query https://serpapi.com/search using a GET request.
 
 ### Requirements
 - PHP 8.0+
