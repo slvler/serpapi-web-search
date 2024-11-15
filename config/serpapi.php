@@ -12,9 +12,9 @@ return [
     */
 
     'client' => [
-        'base_url' => env('SERPAPI_BASE_URL'),
-        'version' => env('SERPAPI_API_VERSION'),
-        'api_key' => env('SERPAPI_API_KEY')
+        'base_url' => env('SERPAPI_BASE_URL', 'https://serpapi.com'),
+        'version' => env('SERPAPI_API_VERSION', ''),
+        'api_key' => env('SERPAPI_API_KEY', '')
     ],
 
     /*

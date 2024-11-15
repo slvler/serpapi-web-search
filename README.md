@@ -30,12 +30,17 @@ SERPAPI_API_VERSION=
 SERPAPI_API_KEY=
 ```
 
-#### Web text search
+### Web text search
 - You can use it to search on serpapi api:
 ```php
 use Slvler\Serpapi\Facades\Serpapi;
 
 Serpapi::search(['q' => "bitcoin"])->result();
+```
+
+### Testing
+```bash
+composer test
 ```
 
 ### Credits
