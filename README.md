@@ -37,6 +37,13 @@ use Slvler\Serpapi\Facades\Serpapi;
 
 Serpapi::search(['q' => "bitcoin"])->result();
 ```
-### Credits
 
+### Credits
 - [slvler](https://github.com/slvler)
+
+### License
+The MIT License (MIT). Please see [License File](https://github.com/slvler/serpapi-web-search/blob/main/LICENSE.md) for more information.
+
+### Contributing
+You're very welcome to contribute.
+Please see [CONTRIBUTING](https://github.com/slvler/serpapi-web-search/blob/main/CONTRIBUTING.md) for details.
